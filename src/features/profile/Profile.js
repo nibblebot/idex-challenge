@@ -93,11 +93,6 @@ export function Profile() {
             </button>
           </form>
         )}
-        {/* <div className="profile-password">
-          <a href="#" onClick={}>
-            Change Password
-          </a>
-        </div> */}
         <div className="profile-language">
           {messages[language].LANGUAGE}
           <select onChange={updateLanguage} value={language}>
@@ -105,11 +100,6 @@ export function Profile() {
             <option value="es">Español</option>
           </select>
         </div>
-        {/* <div className="profile-logout">
-          <a href="#" onClick={}>
-            Logout
-          </a>
-        </div> */}
       </div>
     </div>
   )
